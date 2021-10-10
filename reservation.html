@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>reservation</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="navbar">
-        <a class="active" href="#home" >Home</a>
+        <a class="active" href="index.html" >Home</a>
         <a href="https://www.mercedes-benz.com/en" >Mercedes</a>
         <a href="#Bm">Bmw</a>
         <a href="#Au">Audi</a>
-        <a href="#contact" >Contact</a>
+        <a href="reservation.html">Reservation</a>
+        <a href="contact-us.html" >Contact</a>
         <a href="about-us.html">About us</a>
         <div class="search-container">
           <form class="search" >
@@ -22,8 +23,8 @@
           </form>
          </div>
      </div>
-     
-     <form >
+     <div class= "my-reservation">
+     <form class="reserv" >
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" value=""><br>
         <label for="lname">Last name:</label><br>
@@ -43,14 +44,14 @@
             <option value="Blue">blue</option>
             <option value="any">Any</option>
           </select><br>
-        <label for="from">from</label><br>
-        <input type="date" id="from" name="from"><br>
-        <label for="from">To</label><br>
-        <input type="date" id="TO" name="To">
+        <label for="from">from</label>
+        <input id="start" type="date"  name="from">
+        <label for="from">To</label>
+        <input id="until" type="date"  name="To">
         <br><br>
-        <input type="submit" value="Submit">
+        <button type="submit" class="confirm-reserve">Reserve</button><br>
       </form>
-
+    </div>
 
 
 
