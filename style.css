@@ -1,0 +1,129 @@
+body {
+    background-image:url("../Background.jpg")!important;
+ }
+ .navbar{background-color: #333;
+    overflow: hidden;
+ }
+ .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .navbar a.active {
+    background-color: #b69d0f;
+    color: white;
+  }
+  .navbar .icon {
+    display: none;
+  }
+  form.search input[type=text] {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid grey;
+    float: right;
+    width: 20%;
+    background: #f1f1f1;
+  }
+  /*form.search button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+   /* cursor: pointer;
+  }
+  form.search button:hover {
+    background: #0b7dda;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  
+  
+.contact{
+    height: 300px;
+    width: 70%;
+    background-color: rgb(209, 183, 206);
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    
+}*/
+.sign-in {
+    /*border: 1px solid black;*/
+    /* background-color: lightblue;*/
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    text-align: center;
+}
+.register {
+    padding: 16px;
+  }
+  .register1 input[type=text], .register1 input[type=password] {
+    width: 60%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .register1 input[type=text]:focus,  .register1 input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+.registred {
+    background-color: #b69d0f;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }
+  
+  .registred:hover {
+    opacity:1;
+  }
+  
+  .registred  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0c0b07;
+  color: white;
+  text-align: center;
+}
+
+  
