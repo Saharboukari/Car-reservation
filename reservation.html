@@ -25,12 +25,12 @@
      </div>
      <div class= "my-reservation">
      <form class="reserv" >
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value=""><br>
-        <label for="Cars">Cars</label><br>
-        <select id="country" name="country">
+        <label id="fname">First name:</label><br>
+        <input type="text" id="firstname" value=""><br>
+        <label id="lname">Last name:</label><br>
+        <input type="text" id="lastname"  value=""><br>
+        <label id="Car"> Cars</label><br>
+        <select id="country" >
           <option value="mercedes-class-E">mercedes class E</option>
           <option value="mercedes-class-s">mercedes class s</option>
           <option value="mercedes-GLE">mercedes GLE</option>
@@ -49,7 +49,7 @@
         <label for="from">To</label>
         <input id="until" type="date"  name="To">
         <br><br>
-        <button type="submit" class="confirm-reserve">Reserve</button><br>
+        <button onclick="resevation()" class="confirm-reserve">Reserve</button><br>
       </form>
     </div>
 
