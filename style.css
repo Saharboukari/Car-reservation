@@ -36,8 +36,28 @@ body {
   .galery {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    height: 50%;
+    border: 3px solid #79724a;
     padding: 10px;
+    vertical-align: middle;
+    display: center;
+    background-color: #070707;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .galery button {
+   border-radius: 8px;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   background-color: #e9d669
   }
   /*form.search button {
     float: right;
